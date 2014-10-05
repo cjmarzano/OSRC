@@ -17,3 +17,8 @@ Key features will include:
 - [ ] Automated feeding control
 - [ ] Auto top-off control
 - [ ] Temperature warning
+
+Required Hardware:
+- Raspberry Pi Model B
+- PiTFT 2.8" Touchscreen
+- More to come!
