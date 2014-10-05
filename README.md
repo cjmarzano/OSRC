@@ -22,3 +22,8 @@ Required Hardware:
 - Raspberry Pi Model B
 - PiTFT 2.8" Touchscreen
 - More to come!
+
+Required Software:
+- Python 3.4
+  - Tkinter
+  - PIL 2.6
