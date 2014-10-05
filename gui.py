@@ -1,11 +1,17 @@
 # gui.py
 
+# Gui.pi contains all code pertaining to the GUI. This includes updating the screen and
+# handling all events raised by the user through the touchpad.
+
+# Import from packages
 from tkinter import *
 from PIL import Image, ImageTk
-from config import * # This makes me feel dirty
-import time
 
-class Window(Frame):
+# Import from files
+from config import * # This makes me feel dirty
+import timing
+
+class Main_Window(Frame):
   
 	def __init__(self, parent):
 		Frame.__init__(self, parent, background="white")   
@@ -32,7 +38,7 @@ class Window(Frame):
 		
 def tick(time1=''):
 	# get the current local time from the PC
-	time2 = time.strftime('%I:%M:%S %p')
+	time2 = timing.formattedtime()
 	# if time string has changed, update it
 	if time2 != time1:
 		time1 = time2
@@ -46,7 +52,7 @@ clock = Label(root, font=('times', 20, 'bold'), bg='white')
 clock.pack(fill=BOTH, expand=1)
 	
 def main():
-	app = Window(root)
+	app = Main_Window(root)
 	tick()
 	root.mainloop()  
 	

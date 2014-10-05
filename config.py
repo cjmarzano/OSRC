@@ -1,4 +1,7 @@
-#
+# config.py
+
+# Config.py is a centralized configuration file that contains a number of settings
+# utilized throughout the controller.
 
 # Pixel size of display
 screenwidth = 240
