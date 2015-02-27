@@ -1,8 +1,7 @@
 # moon.py
 
 # Moon.py utilizes the PyEphem package to calculate the percentage of the moon
-# that is currently illuminated. Additional work will need to be done if it's
-# desirable to have the GUI display the moon phase (waxing crescent, etc.).
+# that is currently illuminated.
 
 import ephem
 
