@@ -25,6 +25,3 @@ Required Hardware:
 
 Required Software:
 - Python 3.4
-  - Tkinter
-  - PIL 2.6
-  - PyEphem
