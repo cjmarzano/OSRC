@@ -11,7 +11,9 @@ Key features will include:
 - [ ] Internet based alerts
   - [ ] Tweet alerts
   - [ ] Text alerts
-- [ ] Lighting management
+- [ ] Intelligent lighting control
+  - [ ] Timer based on/off
+  - [ ] Dimmable LED (PWM) support
   - [ ] Simulated Lunar Cycles
 - [ ] Dosing pump control
 - [ ] Automated feeding control
@@ -19,7 +21,7 @@ Key features will include:
 - [ ] Temperature warning
 
 Required Hardware:
-- Raspberry Pi Model B
+- Raspberry Pi Model B or B+
 - PiTFT 2.8" Touchscreen
 - More to come!
 
