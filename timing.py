@@ -12,7 +12,7 @@ def formattedtime():
 
 # Returns the current local time in 24hr HH:MM:SS, most useful for event scheduling
 def currenttime():
-	return(time.strftime('%H:%M:%S'))
+	return(datetime.datetime.now().time())
 	
 # Returns true or false if the current time is between the on and off times.
 # If the on time is greater than the off time, it is understood to be an overnight event.
