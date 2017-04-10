@@ -3,27 +3,16 @@ OSRC
 
 Open Source Reef Controller powered by Raspberry Pi
 
-
-This project aims to create a reef aquarium controller utilizing the Raspberry Pi.
-
-Key features will include:
-- [ ] Touchscreen GUI control
-- [ ] Internet based alerts
-  - [ ] Tweet alerts
-  - [ ] Text alerts
-- [ ] Intelligent lighting control
-  - [ ] Timer based on/off
-  - [ ] Dimmable LED (PWM) support
-  - [ ] Simulated Lunar Cycles
-- [ ] Dosing pump control
-- [ ] Automated feeding control
-- [ ] Auto top-off control
-- [ ] Temperature warning
+Features include:
+- Temperature measurement
+- Dosing pump control and scheduling
+- Thingspeak integration (Free cloud based IoT data logging)
 
 Required Hardware:
-- Raspberry Pi Model B or B+
-- PiTFT 2.8" Touchscreen
-- More to come!
+- Raspberry Pi Model B+, Pi 2, or Pi 3
 
-Required Software:
-- Python 3.4
+Optional Hardware:
+- DS18B20 1-Wire Temperature Sensor
+- RasClock Real Time Clock
+- Adafruit Motor HAT
+- Peristaltic Dosing Pump
